@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12391656-93d6-484b-a37f-03bc28c2b113" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ISJN53lWRpftzwd0f5V6r7OFFD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe" />
@@ -29,5 +55,25 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12391656-93d6-484b-a37f-03bc28c2b113" name="Changes" comment="" />
+      <created>1670169011026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670169011026</updated>
+      <workItem from="1670169022811" duration="3645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

@@ -10,22 +10,28 @@ public class PlayerMovement : MonoBehaviour
     
     [SerializeField] private float moveSpeed;
     [SerializeField] private float rotationSpeed;
+    [SerializeField] private AudioSource _stepsSound;
 
     private float _currentY;
 
     public GameObject cameras;
 
+    private Rigidbody _rigidbody;
+
     private void Start()
     {
+        _rigidbody = GetComponent<Rigidbody>();
+        
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        
         _currentY = cameras.transform.rotation.eulerAngles.x;
+        
     }
 
     private void FixedUpdate()
     {
-        
-            var vertical = Input.GetAxis("Vertical");
+        var vertical = Input.GetAxis("Vertical");
             var horizontal = Input.GetAxis("Horizontal");
             var mx = Input.GetAxis("Mouse X");
             var my = Input.GetAxis("Mouse Y");
@@ -56,4 +62,6 @@ public class PlayerMovement : MonoBehaviour
             
             controller.Move(Physics.gravity * Time.deltaTime);
     }
+
+
 }
